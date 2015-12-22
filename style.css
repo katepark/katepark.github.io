@@ -21,13 +21,13 @@ body {
 
 #home-page{
 	padding-left: 20px;
-	padding-top: 20px;
+	padding-top: 40px;
+	padding-bottom: 30px;
 	text-decoration: none;
 	color:#ccc;
 	display:block;
 	font-size: 300%;
 }
-
 
 #section{
 	color:#ccc;
@@ -71,6 +71,8 @@ ul li a{
 	width:90%;
 	text-decoration: none;
 	padding: 5%;
+	cursor:pointer;
+
 }
 
 #sidebar-btn{
@@ -99,3 +101,12 @@ ul li a{
 #sidebar-btn span:nth-child(3){
 	width:50%;
 }
+
+/*@media  (max-width: 780px)
+{
+	#sidebar
+	{
+		width:100%;
+		margin-top:0;
+	}
+}*/
