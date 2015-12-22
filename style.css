@@ -15,8 +15,21 @@ body {
 	transition: left 0.3s linear;
 }
 
+#main-content{
+	height:100%;
+	display:block;
+	position:absolute;
+	left:350px;
+	top:0px;
+	padding-top: 50px;
+}
+
 #sidebar-padding{
-	padding-top: 200px;
+	padding-top: 10px;
+}
+
+#section-label{
+	color:white;
 }
 #sidebar.invisible{
 	left:-300px;
@@ -24,7 +37,6 @@ body {
 }
 
 ul{
-	padding-top: 300px;
 	margin:0px;
 	padding:0px;
 }
