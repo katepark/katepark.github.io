@@ -2,6 +2,8 @@ body {
 	margin:0px;
 	padding:0px;
 	font-family:"Helvetica Neue", Helvetica, Arial;
+	letter-spacing: 1px;
+	line-height: 150%;
 }
 
 #sidebar{
@@ -13,8 +15,12 @@ body {
 	left:0px;
 	top:0px;
 	transition: left 0.3s linear;
+	padding-top: 10px;
 }
 
+#about-section{
+	color:#ccc;
+}
 #main-content{
 	height:100%;
 	display:block;
@@ -22,14 +28,12 @@ body {
 	left:350px;
 	top:0px;
 	padding-top: 50px;
+	padding-right: 50px;
 }
 
-#sidebar-padding{
-	padding-top: 10px;
-}
 
 #section-label{
-	color:white;
+	color:#ffffff;
 }
 #sidebar.invisible{
 	left:-300px;
