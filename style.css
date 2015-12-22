@@ -15,6 +15,9 @@ body {
 	transition: left 0.3s linear;
 }
 
+#sidebar-padding{
+	padding-top: 200px;
+}
 #sidebar.invisible{
 	left:-300px;
 	transition: left 0.3s linear;
