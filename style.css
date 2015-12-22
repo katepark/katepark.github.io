@@ -8,7 +8,7 @@ body {
 
 #sidebar{
 	background:#151718;
-	width:300px;
+	width:35%;
 	height:100%;
 	display:block;
 	position:absolute;
@@ -38,10 +38,10 @@ body {
 	height:100%;
 	display:block;
 	position:absolute;
-	left:350px;
+	float:right;
+	left:35%;
 	top:0px;
-	padding-top: 50px;
-	padding-right: 50px;
+	padding:10%;
 }
 
 
@@ -49,7 +49,7 @@ body {
 	color:#ffffff;
 }
 #sidebar.invisible{
-	left:-300px;
+	left:-30%;
 	transition: left 0.3s linear;
 }
 
@@ -67,21 +67,20 @@ ul li a{
 	color:#ccc;
 	border-bottom:;1px solid $111;
 	display:block;
-	width:280px;
-	padding:10px;
+	width:90%;
+	padding:5%;
 	text-decoration: none;
 }
 
-#sidebar-btn{
+/*#sidebar-btn{
 	display:inline-block;
 	vertical-align: middle;
 	width:20px;
 	height:15px;
 	cursor:pointer;
-	margin:20px;
 	position: absolute;;
 	top: 0px;
-	right: -60px;
+	right: -20%;
 }
 
 #sidebar-btn span{
@@ -98,3 +97,4 @@ ul li a{
 #sidebar-btn span:nth-child(3){
 	width:50%;
 }
+*/
