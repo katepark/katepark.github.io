@@ -4,6 +4,7 @@ body {
 	font-family:"Helvetica Neue", Helvetica, Arial;
 	letter-spacing: 1px;
 	line-height: 150%;
+	font-weight:300;
 }
 
 #sidebar{
@@ -17,7 +18,6 @@ body {
 	transition: left 0.3s linear;
 	padding-top: 10px;
 }
-
 
 #home-page{
 	padding-left: 20px;
@@ -68,8 +68,10 @@ ul li a{
 	border-bottom:;1px solid $111;
 	display:block;
 	width:90%;
-	padding:5%;
 	text-decoration: none;
+	padding: 5%;
+	cursor:pointer;
+
 }
 
 /*#sidebar-btn{
@@ -97,4 +99,16 @@ ul li a{
 #sidebar-btn span:nth-child(3){
 	width:50%;
 }
+<<<<<<< HEAD
 */
+=======
+
+/*@media  (max-width: 780px)
+{
+	#sidebar
+	{
+		width:100%;
+		margin-top:0;
+	}
+}*/
+>>>>>>> master
