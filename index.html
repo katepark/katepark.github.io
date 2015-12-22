@@ -1,7 +1,40 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<title>Kate Park</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
 <body>
-<h1>Kate Park</h1>
-<p>About Me</p>
+
+	<div id="sidebar">
+
+		<ul>
+			<li><a href="#">Press and Talks</a><li>
+			<li><a href="#">Contact</a><li>
+			<li><a href="#">Growing Up Aloft</a><li>
+			<li><a href="#">Work</a><li>
+			<li><a href="#">Thoughts</a><li>
+		</ul>
+
+		<div id="sidebar-btn">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+
+	</div>
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script>
+
+	$(document).ready(function(){
+		$('#sidebar-btn').click(function(){
+			$('#sidebar').toggleClass('invisible');
+		});
+	});
+
+	</script>
 </body>
 </html>
