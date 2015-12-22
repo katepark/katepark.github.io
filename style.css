@@ -18,10 +18,22 @@ body {
 	padding-top: 10px;
 }
 
-#about-section{
-	color:#ccc;
+
+#home-page{
 	padding-left: 20px;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	text-decoration: none;
+	color:#ccc;
+	display:block;
+	font-size: 300%;
 }
+
+#section{
+	color:#ccc;
+	padding: 20px;
+}
+
 #main-content{
 	height:100%;
 	display:block;
