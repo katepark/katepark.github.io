@@ -9,7 +9,7 @@ body {
 }
 
 .sidebar{
-	background:#2e2e2e;
+	background:#292B2E;
 	width:35%;
 	height:100%;
 	display:block;
@@ -17,12 +17,11 @@ body {
 	left:0px;
 	top:0px;
 	transition: left 0.3s linear;
-	padding-top: 10px;
 }
 
 #home-page-title{
+	padding: 80px 5% 50px 5%;
 	padding-left: 20px;
-	padding-top: 50px;
 	padding-bottom: 50px;
 	text-decoration: none;
 	color:#ccc;
@@ -90,6 +89,11 @@ ul li a{
 	padding: 5%;
 	text-decoration: none;
 	cursor:pointer;
+}
+
+ul li a:hover{
+	background:#445369;
+	text-decoration: none;
 }
 
 a{
