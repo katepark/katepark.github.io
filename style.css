@@ -7,7 +7,7 @@ body {
 	font-weight:300;
 }
 
-#sidebar{
+.sidebar{
 	background:#151718;
 	width:35%;
 	height:100%;
@@ -19,7 +19,7 @@ body {
 	padding-top: 10px;
 }
 
-#home-page{
+#home-page-title{
 	padding-left: 20px;
 	padding-top: 40px;
 	padding-bottom: 30px;
@@ -29,12 +29,21 @@ body {
 	font-size: 300%;
 }
 
-#section{
+.section{
 	color:#ccc;
-	padding: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
-#main-content{
+.section-header{
+	display:block;
+	text-decoration: none;
+	cursor:pointer;
+	color:#ccc;
+	list-style-type: none;
+}
+
+.main-content{
 	height:100%;
 	display:block;
 	position:absolute;
@@ -44,13 +53,15 @@ body {
 	padding:10%;
 }
 
-
-#section-label{
-	color:#ffffff;
-}
-#sidebar.invisible{
+.sidebar.invisible{
 	left:-30%;
 	transition: left 0.3s linear;
+}
+
+.navbar{
+	position: absolute;
+	bottom: 0;
+	width: 100%
 }
 
 ul{
@@ -71,7 +82,6 @@ ul li a{
 	text-decoration: none;
 	padding: 5%;
 	cursor:pointer;
-
 }
 
 /*#sidebar-btn{
@@ -99,9 +109,7 @@ ul li a{
 #sidebar-btn span:nth-child(3){
 	width:50%;
 }
-<<<<<<< HEAD
 */
-=======
 
 /*@media  (max-width: 780px)
 {
@@ -111,4 +119,3 @@ ul li a{
 		margin-top:0;
 	}
 }*/
->>>>>>> master
