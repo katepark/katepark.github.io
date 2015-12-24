@@ -1,14 +1,15 @@
 body {
 	margin:0px;
 	padding:0px;
-	font-family:"Helvetica Neue", Helvetica, Arial;
+	font-family: "ApercuPro", "Helvetica Neue", Helvetica, Arial;
 	letter-spacing: 1px;
 	line-height: 150%;
 	font-weight:300;
+	font-size: 85%;
 }
 
 .sidebar{
-	background:#151718;
+	background:#2e2e2e;
 	width:35%;
 	height:100%;
 	display:block;
@@ -21,28 +22,33 @@ body {
 
 #home-page-title{
 	padding-left: 20px;
-	padding-top: 40px;
-	padding-bottom: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	text-decoration: none;
 	color:#ccc;
 	display:block;
-	font-size: 300%;
+	font-size: 200%;
+	letter-spacing: 1px;
+	font-weight: 500;
 }
 
 .section{
 	color:#ccc;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-bottom: 2%;
 }
 
 .section-header{
-	display:block;
 	text-decoration: none;
+	width:90%;
+	padding: 2% 5% 2% 5%;
 	cursor:pointer;
 	color:#ccc;
 	list-style-type: none;
-	padding-bottom: 5px;
-	font-size: 110%;
+}
+
+.section-content{
+	padding: 0% 5% 0% 5%;
+	text-decoration: none;
 }
 
 .main-content{
@@ -53,6 +59,7 @@ body {
 	left:35%;
 	top:0px;
 	padding:10%;
+	font-size: 110%;
 }
 
 .sidebar.invisible{
@@ -78,12 +85,19 @@ ul li{
 ul li a{
 	background:#1C1E1F;
 	color:#ccc;
-	border-bottom:;1px solid $111;
 	display:block;
 	width:90%;
-	text-decoration: none;
 	padding: 5%;
+	text-decoration: none;
 	cursor:pointer;
+}
+
+a{
+	text-decoration: none;
+	color:#a9defe;
+}
+a:hover {
+	text-decoration: underline;
 }
 
 /*#sidebar-btn{
