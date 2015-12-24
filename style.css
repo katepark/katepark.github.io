@@ -41,6 +41,8 @@ body {
 	cursor:pointer;
 	color:#ccc;
 	list-style-type: none;
+	padding-bottom: 5px;
+	font-size: 110%;
 }
 
 .main-content{
