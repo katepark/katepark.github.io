@@ -11,7 +11,7 @@ body {
 }
 
 #sidebar{
-	background:#292B2E;
+	background:#0B132B;
 	width:35%;
 	height:100%;
 	display:block;
@@ -73,7 +73,7 @@ ul li{
 }
 
 ul li a{
-	background:#1C1E1F;
+	background:#1C2541;
 	color:#ccc;
 	display:block;
 	width:90%;
@@ -87,14 +87,23 @@ ul li a:hover{
 	text-decoration: none;
 }
 
+ul li a:active{
+	background:#3A506B;
+	text-decoration: none;
+}
+
 a{
 	text-decoration: none;
-	color:#a9defe;
+	color:#5BC0BE;
 }
 a:hover {
 	text-decoration: underline;
 }
 
+h{
+	font-weight: 500;
+	font-size: 150%;
+}
 #sidebar-btn{
 	display:inline-block;
 	vertical-align: middle;
@@ -127,8 +136,7 @@ a:hover {
 	display:block;
 	position:absolute;
 	margin-top: 60px;
-	margin-left: 35%;
-	padding-left: 60px;
+	margin-left: 40%;
 	padding-right: 60px;
 	top: 0%;
 	font-size: 110%;
