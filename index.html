@@ -34,13 +34,12 @@
 			<span></span>
 			<span></span>
 		</div>
-
-		<div class="content">
-			<p> <i>Growing Up Aloft</i> is a sweet and whimsical travel memoir that shows us Europe through the eyes of a child--from tubby toddler to independent teen. During 14 trips, bump into the Prince of Monaco, get snatched by Italian tourists, and fall in love with a Burgundy village. Original and peppy, <i>Growing Up Aloft</i> will charm you with photos, fun facts, and anecdotes.
-			</p>
-		</div>
 	</div>
 
+	<div id="content">
+		<p> <i>Growing Up Aloft</i> is a sweet and whimsical travel memoir that shows us Europe through the eyes of a child--from tubby toddler to independent teen. During 14 trips, bump into the Prince of Monaco, get snatched by Italian tourists, and fall in love with a Burgundy village. Original and peppy, <i>Growing Up Aloft</i> will charm you with photos, fun facts, and anecdotes.
+		</p>
+	</div>
 
 
 
@@ -50,6 +49,7 @@
 	$(document).ready(function(){
 		$('#sidebar-btn').click(function(){
 			$('#sidebar').toggleClass('invisible');
+			$('#content').toggleClass('shiftleft');
 		});
 	});
 

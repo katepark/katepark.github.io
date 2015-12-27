@@ -122,16 +122,21 @@ a:hover {
 	width:50%;
 }
 
-.content{
+#content{
 	height:100%;
 	display:block;
 	position:absolute;
 	margin-top: 60px;
-	margin-left: 60px;
+	margin-left: 35%;
+	padding-left: 60px;
+	padding-right: 60px;
 	top: 0%;
-	left: 100%;
-	width: 150%;
 	font-size: 110%;
+}
+
+#content.shiftleft{
+	left:-35%;
+	transition: left 0.5s linear;
 }
 
 @media  (max-width: 780px)
