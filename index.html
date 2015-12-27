@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<div class="sidebar">
+	<div id="sidebar">
 		<a id="home-page-title" href="/">KATE PARK</a>
 		<div class="section">
 			<a class="section-header" href="#">ABOUT ME</a>
@@ -15,14 +15,10 @@
 		</div>
 
 		<div class="section">
-			<a class="section-header" href="#">RECENT NEWS</a>
+			<h class="section-header">RECENT NEWS</h>
 			<p class="section-content">
 				<a href="https://eng.uber.com/uber-intern-supply-2015/" target="_blank">My Uber Intern Experience</a>
 			</p>
-		</div>
-
-		<div class="section">
-			<a class="section-header" href="#">CONTACT</a>
 		</div>
 
 		<div class="navbar">
@@ -33,30 +29,36 @@
 			</ul>
 		</div>
 		
-		<!-- 
 		<div id="sidebar-btn">
 			<span></span>
 			<span></span>
 			<span></span>
-		</div> -->
-
+		</div>
 	</div>
 
-	<div class="main-content">
+	<div id="content">
 		<p> <i>Growing Up Aloft</i> is a sweet and whimsical travel memoir that shows us Europe through the eyes of a child--from tubby toddler to independent teen. During 14 trips, bump into the Prince of Monaco, get snatched by Italian tourists, and fall in love with a Burgundy village. Original and peppy, <i>Growing Up Aloft</i> will charm you with photos, fun facts, and anecdotes.
 		</p>
 	</div>
 
 
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script>
 
-	// $(document).ready(function(){
-	// 	$('#sidebar-btn').click(function(){
-	// 		$('#sidebar').toggleClass('invisible');
-	// 	});
-	// });
+	$(document).ready(function(){
+		$('#sidebar-btn').click(function(){
+			$('#sidebar').toggleClass('invisible');
+			$('#content').toggleClass('shiftleft');
+		});
+	});
 
 	</script>
+
+	<!-- 	<div class="main-content">
+		<p> <i>Growing Up Aloft</i> is a sweet and whimsical travel memoir that shows us Europe through the eyes of a child--from tubby toddler to independent teen. During 14 trips, bump into the Prince of Monaco, get snatched by Italian tourists, and fall in love with a Burgundy village. Original and peppy, <i>Growing Up Aloft</i> will charm you with photos, fun facts, and anecdotes.
+		</p>
+	</div> -->
+
 </body>
 </html>
